@@ -1,1 +1,2 @@
-# spirit.io-sample-application
+# admin-spirit.io
+Sample spirit.io application
