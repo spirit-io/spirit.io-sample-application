@@ -1,0 +1,1 @@
+# spirit.io-sample-application
