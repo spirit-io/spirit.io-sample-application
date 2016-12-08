@@ -5,10 +5,10 @@ require("streamline").register({
 });
 require('streamline-runtime');
 const config = require('./config').config;
-let App = require('./app').AdminServer;
-new App(config).init(function(err, srv) {
+let App = require('./app').SampleApp;
+new App(config).init(function (err, srv) {
     if (err) throw err;
-    srv.start(function(err) {
+    srv.start(function (err) {
         if (err) throw err;
     }, config.expressPort);
 });

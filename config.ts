@@ -12,9 +12,11 @@ const REDIS_DB = process.env.SPIRIT_REDIS_DB || 0;
 const REDIS_URL = 'redis://' + REDIS_HOST + ':' + REDIS_PORT;
 
 const SECRET = process.env.SPIRIT_SESSIONS_SECRET || 'sample.spirit.io';
+const path = require('path');
 
 exports.config = {
     expressPort: HTTP_PORT,
+    modelsLocation: path.resolve(path.join(__dirname, './lib/models')),
     connectors: {
         mongodb: {
             datasources: {

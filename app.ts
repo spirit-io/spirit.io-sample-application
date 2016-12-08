@@ -6,6 +6,7 @@ const cookieParser = require('cookie-parser');
 
 export class SampleApp extends AdminServer {
     constructor(config: any) {
+        console.log("Config:", config)
         super(config);
 
         this.on('initialized', () => {
