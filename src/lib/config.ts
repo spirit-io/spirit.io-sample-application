@@ -16,7 +16,7 @@ const path = require('path');
 
 exports.config = {
     expressPort: HTTP_PORT,
-    modelsLocation: path.resolve(path.join(__dirname, './lib/models')),
+    modelsLocation: path.resolve(path.join(__dirname, './models')),
     connectors: {
         mongodb: {
             datasources: {
