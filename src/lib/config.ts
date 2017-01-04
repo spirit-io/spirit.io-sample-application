@@ -15,7 +15,7 @@ const SECRET = process.env.SPIRIT_SESSIONS_SECRET || 'sample.spirit.io';
 const path = require('path');
 
 exports.config = {
-    expressPort: HTTP_PORT,
+    port: HTTP_PORT,
     modelsLocation: path.resolve(path.join(__dirname, './models')),
     connectors: {
         mongodb: {
