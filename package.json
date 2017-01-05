@@ -29,7 +29,8 @@
   "homepage": "https://github.com/spirit-io/spirit.io-sample-application#readme",
   "dependencies": {
     "f-promise": "^1.0.4",
-    "spirit.io-admin-application": "^1.0.0s"
+    "spirit.io-admin-application": "^1.0.0",
+    "spirit.io": "^1.0.9"
   },
   "devDependencies": {
     "@types/chai": "^3.4.34",
