@@ -55,5 +55,8 @@ exports.config = {
         redis: {
             ttl: 12000
         }
-    }
+    },
+    system: {
+        exposeStack: true
+    },
 };
